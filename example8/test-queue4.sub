@@ -1,0 +1,8 @@
+executable = test.sh
+arguments = -c 1 -t $(arg1)
+output = test-queue4-$(ClusterId).$(ProcId).out
+error = test-queue4-$(ClusterId).$(ProcId).err
+log = test-queue4-$(ClusterId).$(ProcId).log
+
+queue arg1 in (10 15 5 20)
+

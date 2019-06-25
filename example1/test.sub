@@ -1,0 +1,10 @@
+executable = test.sh
+arguments = -c 1 -t 60
+output = test-$(ClusterId).$(ProcId).out
+error = test-$(ClusterId).$(ProcId).err
+log = test-$(ClusterId).$(ProcId).log
+
++JobBatchName="MyJobs"
+
+queue 2
+

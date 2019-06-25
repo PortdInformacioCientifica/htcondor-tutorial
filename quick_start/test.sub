@@ -1,0 +1,8 @@
+executable = test.sh
+args = -c 1 -t 60
+output = condor.out
+error = condor.err
+log = condor.log
+
+queue
+

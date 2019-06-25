@@ -1,0 +1,8 @@
+executable = /bin/echo
+arguments = $(filename)
+output = test-queue2-$(ClusterId).$(ProcId).out
+error = test-queue2-$(ClusterId).$(ProcId).err
+log = test-queue2-$(ClusterId).$(ProcId).log
+
+queue filename matching files Hello*
+

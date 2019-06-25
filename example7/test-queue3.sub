@@ -1,0 +1,8 @@
+executable = test.sh
+arguments = -c $(option1) -t $(option2)
+output = test-queue3-$(ClusterId).$(ProcId).out
+error = test-queue3-$(ClusterId).$(ProcId).err
+log = test-queue3-$(ClusterId).$(ProcId).log
+
+queue option1,option2 from arg_list.txt
+
