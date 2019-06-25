@@ -1,7 +1,7 @@
 executable = test-output.sh
-output = test-$(ClusterId).$(ProcId).out
-error = test-$(ClusterId).$(ProcId).err
-log = test-$(ClusterId).$(ProcId).log
+output = test-out1-$(ClusterId).$(ProcId).out
+error = test-out1-$(ClusterId).$(ProcId).err
+log = test-out1-$(ClusterId).$(ProcId).log
 transfer_output_files=1.txt
 
 queue

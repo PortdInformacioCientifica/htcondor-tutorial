@@ -1,0 +1,10 @@
+executable = test.sh
+args = -c 1 -t 60
+output = test-flavour-$(ClusterId).$(ProcId).out
+error = test-flavour-$(ClusterId).$(ProcId).err
+log = test-flavour-$(ClusterId).$(ProcId).log
+
++flavour="short"
+
+queue
+

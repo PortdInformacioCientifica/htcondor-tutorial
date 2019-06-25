@@ -1,7 +1,7 @@
 executable = test-env.sh
-output = test-$(ClusterId).$(ProcId).out
-error = test-$(ClusterId).$(ProcId).err
-log = test-$(ClusterId).$(ProcId).log
+output = test-env-$(ClusterId).$(ProcId).out
+error = test-env-$(ClusterId).$(ProcId).err
+log = test-env-$(ClusterId).$(ProcId).log
 
 environment = SOFT_DIR=/software/dteam; OTHER_DIR=/nfs/dteam
 

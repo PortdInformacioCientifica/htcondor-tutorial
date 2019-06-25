@@ -1,7 +1,7 @@
 executable = test-output.sh
-output = test-$(ClusterId).$(ProcId).out
-error = test-$(ClusterId).$(ProcId).err
-log = test-$(ClusterId).$(ProcId).log
+output = test-out2-$(ClusterId).$(ProcId).out
+error = test-out2-$(ClusterId).$(ProcId).err
+log = test-out2-$(ClusterId).$(ProcId).log
 transfer_output_files=1.txt
 transfer_output_remaps="1.txt=outputs/1-$(ClusterId).$(ProcId).txt"
 

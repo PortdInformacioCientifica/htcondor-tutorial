@@ -1,0 +1,12 @@
+executable = test.sh
+args = -c 8 -t 60
+output = test-req-$(ClusterId).$(ProcId).out
+error = test-req-$(ClusterId).$(ProcId).err
+log = test-req-$(ClusterId).$(ProcId).log
+
+request_memory = 4 GB
+request_cpus = 8
+request_disk = 30 GB
+
+queue
+
