@@ -4,5 +4,5 @@ output = test-queue2-$(ClusterId).$(ProcId).out
 error = test-queue2-$(ClusterId).$(ProcId).err
 log = test-queue2-$(ClusterId).$(ProcId).log
 
-queue filename matching files args/Hello*
+queue filename matching files Hello*
 

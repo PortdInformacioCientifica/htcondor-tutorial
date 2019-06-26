@@ -4,5 +4,5 @@ output = test-queue3-$(ClusterId).$(ProcId).out
 error = test-queue3-$(ClusterId).$(ProcId).err
 log = test-queue3-$(ClusterId).$(ProcId).log
 
-queue option1,option2 from arg_list.txt
+queue option1,option2 from args/arg_list.txt
 
