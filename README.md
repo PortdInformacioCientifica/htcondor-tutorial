@@ -13,4 +13,3 @@ This repository includes the examples showed in HTCondor Tutorial presentation a
 * example8: Queue 4. In list.
 * example9: Transfer files 1. transfer_output_files.
 * example10: Transfer files 2. transfer_output_remaps 
-

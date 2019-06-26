@@ -3,7 +3,7 @@ output = test-env-$(ClusterId).$(ProcId).out
 error = test-env-$(ClusterId).$(ProcId).err
 log = test-env-$(ClusterId).$(ProcId).log
 
-environment = SOFT_DIR=/software/dteam; OTHER_DIR=/nfs/dteam
+environment = SOFT_DIR=/software/dteam; OTHER_DIR=/nfs/dteam; PATH=$ENV(PATH)
 
 queue
 

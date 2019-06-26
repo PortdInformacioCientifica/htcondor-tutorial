@@ -4,10 +4,10 @@ output = test-queue1-$(ClusterId).$(ProcId).out
 error = test-queue1-$(ClusterId).$(ProcId).err
 log = test-queue1-$(ClusterId).$(ProcId).log
 
-args = -c 1 -t 60
+arguments = -c 1 -t 60
 request_cpus = 1
 queue
-args = -c 8 -t 60
+arguments = -c 8 -t 60
 request_cpus = 8
 queue
 
